@@ -1,0 +1,75 @@
+@media print {
+  #view_26 {
+    display: none;
+  }
+
+  #view_25 th {
+    color: #000099;
+  }
+
+  #view_25 td {
+    font-weight: bold;
+  }
+
+  #view_25 tr:nth-child(even) {
+    background-color: #e6e6e6;
+  }
+
+  #view_25-search {
+    display: none;
+  }
+
+  /* Can be un-commented if they no longer want report title printed */
+  /* #view_25 .kn-title {
+        display: none;
+    } */
+
+  #view_25 table {
+    margin-top: -25px !important;
+    margin-bottom: 0px !important;
+  }
+
+  #tableTotal {
+    float: right;
+  }
+
+  #tableTotal h4,
+  #tableTotal h5 {
+    display: inline-block;
+    padding: 10px !important;
+    margin-top: 0px;
+    font-size: 18px;
+  }
+
+  #tableTotal h4 {
+    font-weight: bold;
+    background: #f2f2f2;
+  }
+  .fa {
+    display: none !important;
+  }
+}
+
+#view_26 {
+  display: none;
+}
+
+.detailsHeader,
+.detailsValue {
+  font-size: 18px;
+  display: inline-block !important;
+  padding: 10px !important;
+}
+
+.detailsHeader {
+  background: #f2f2f2;
+  width: 225px;
+  margin-bottom: -7px !important;
+  font-weight: bold !important;
+}
+
+.detailsValue {
+  font-weight: 500 !important;
+  font-size: 16px;
+  vertical-align: middle;
+}
